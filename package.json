@@ -1,0 +1,43 @@
+{
+  "name": "metrica",
+  "version": "0.1.0",
+  "private": true,
+  "prisma": {
+    "seed": "ts-node --compiler-options {\"module\":\"CommonJS\"} prisma/seed.ts"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "prisma generate && next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@mantine/charts": "^7.10.2",
+    "@mantine/core": "^7.10.2",
+    "@mantine/dates": "^7.10.2",
+    "@mantine/form": "^7.10.2",
+    "@mantine/hooks": "^7.10.2",
+    "@mantine/modals": "^7.10.2",
+    "@mantine/notifications": "^7.10.2",
+    "@prisma/client": "^5.15.1",
+    "@tabler/icons-react": "^3.6.0",
+    "axios": "^1.7.2",
+    "dayjs": "^1.11.11",
+    "next": "14.2.4",
+    "postcss-preset-mantine": "^1.15.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "recharts": "^2.12.7",
+    "zustand": "^4.5.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.6",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.4",
+    "prisma": "^5.15.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
