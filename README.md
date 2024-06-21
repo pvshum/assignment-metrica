@@ -46,8 +46,12 @@
 &nbsp;
 
 # Grafana
-![Grafana](https://advertion.grafana.net/public/img/grafana_text_logo_light.svg)
-I've build a Grafana dashboard to visualise the metrics. The board is pointed to the same data source ans the application. You can find the board here: [Board link](https://advertion.grafana.net/public-dashboards/e5911a5dd6ca454a95c88741b6ff7884).
+
+I've built a Grafana dashboard to visualize the metrics.
+
+The dashboard is connected to the same data source as the application.
+
+You can find the board here: [Board link](https://advertion.grafana.net/public-dashboards/e5911a5dd6ca454a95c88741b6ff7884).
 
 # The Application
 The application is built using JS/TS stack with [Next.js](https://nextjs.org/) and deployed to [Vercel](https://vercel.com/).
