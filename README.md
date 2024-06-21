@@ -3,6 +3,7 @@
 - [The Project](#the-project)
   - [Functional requirements](#functional-requirements)
   - [Non-functional requirements](#non-functional-requirements)
+- [Grafana](#grafana)
 - [The Application](#the-application)
   - [Quick demo](#quick-demo)
   - [Usage](#usage)
@@ -43,6 +44,10 @@
 &nbsp;
 
 &nbsp;
+
+# Grafana
+![Grafana](https://advertion.grafana.net/public/img/grafana_text_logo_light.svg)
+I've build a Grafana dashboard to visualise the metrics. The board is pointed to the same data source ans the application. You can find the board here: [Board link](https://advertion.grafana.net/public-dashboards/e5911a5dd6ca454a95c88741b6ff7884).
 
 # The Application
 The application is built using JS/TS stack with [Next.js](https://nextjs.org/) and deployed to [Vercel](https://vercel.com/).
